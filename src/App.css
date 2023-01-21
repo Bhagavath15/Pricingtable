@@ -1,0 +1,59 @@
+:root {
+    background-color: dodgerblue;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.containerPrice {
+    width: 320px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 500px;
+    object-fit: cover;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    font-family: var(--bs-body-font-family);
+
+}
+
+.containerPrice:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+}
+
+.subscribe {
+    letter-spacing: .1rem;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px
+}
+
+.text-muted {
+    opacity: 0.7;
+}
+
+.list {
+    line-height: 30px;
+}
+
+
+.price {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
